@@ -1,6 +1,9 @@
-# Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit
+## Name:R.Elavarusu
+## Reg:23013515
 
-# Implementation-of-Half-Adder-and-Full-Adder-circuit
+## Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit
+
+## Implementation-of-Half-Adder-and-Full-Adder-circuit
 ### AIM:
 To design a half adder and full adder circuit and verify its truth table in Quartus using Verilog programming.
 
@@ -10,12 +13,12 @@ Software – Quartus prime
 Theory
 Adders are digital circuits that carry out addition of numbers.
 
-### Half Adder
+### Half Adder:
 Half adder is a combinational circuit that performs simple addition of two binary numbers. The input variables designate the augend and addend bits; the output variables produce the sum and carry. It is necessary to specify two output variables because the result may consist of two binary digits.
 
 Sum = A’B+AB’ =A ⊕ B Carry = AB
 
-### Full Adder
+### Full Adder:
 Full adder is a digital circuit used to calculate the sum of three binary bits. It consists of three inputs and two outputs. Two of the input variables, denoted by A and B, represent the two significant bits to be added. The third input, Cin, represents the carry from the previous lower significant position. Two outputs are necessary because the arithmetic sum of three binary digits ranges in value from 0 to 3, and binary 2 or 3 needs two digits. The two outputs are sum and carry.
 
 Sum =A’B’Cin + A’BCin’ + ABCin + AB’Cin’ = A ⊕ B ⊕ Cin Carry = AB + ACin + BCin
@@ -34,21 +37,53 @@ Sum =A’B’Cin + A’BCin’ + ABCin + AB’Cin’ = A ⊕ B ⊕ Cin Carry = A
 Connect the supply (+5V) to the circuit
 Switch ON the main switch
 If the output is 1, then the led glows.
-### 
-Program:
-/*
+### Program:
+
+### Half Adder:
+
+
+### Full Adder:
+![full pro](https://github.com/karthielavarasu/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145980473/4ec32aba-d8a9-47ca-81ac-daca1e22cda4)
+
+
+
 Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
 Developed by: 
-RegisterNumber:  
-*/
-Logic symbol & Truthtable
-RTL realization
 
-### Output:
-### RTL
-### TIMING DIAGRAM
+## Logic symbol:
+
+### Half Adder:
+![Screenshot 2023-12-21 212444](https://github.com/karthielavarasu/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145980473/50f20163-aff8-44e1-9a66-32a726f5061f)
 
 
-### TRUTH TABLE 
+### Full Adder:
+
+![Screenshot 2023-12-21 212526](https://github.com/karthielavarasu/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145980473/09591100-beb1-4a82-964b-eceea1c8060c)
+
+
+
+## Truthtable:
+
+### Half Adder:
+![half truth](https://github.com/karthielavarasu/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145980473/db0a76bb-1191-4a77-832d-fd3ffca8323e)
+
+
+### Full Adder:
+
+![Screenshot 2023-12-21 212341](https://github.com/karthielavarasu/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145980473/ce18e21e-d258-48ad-b4d0-5017ad08304b)
+
+
+
+## TIMING DIAGRAM:
+
+### Half Adder:
+
+![Screenshot 2023-12-21 212648](https://github.com/karthielavarasu/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145980473/2777361d-9c66-45a5-b5aa-67679d3fa89e)
+
+
+### Full Adder:
+
+![Screenshot 2023-12-21 212731](https://github.com/karthielavarasu/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145980473/6c52f2dc-0f0d-4054-ab66-54a2878b0018)
+
 
 ### Result:
