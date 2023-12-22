@@ -40,7 +40,13 @@ If the output is 1, then the led glows.
 ### Program:
 
 ### Half Adder:
-
+~~~
+input a,b;
+out put sum,carry;
+xor(sum,a,b);
+and(carry,a,b);
+endmodule
+~~~
 
 ### Full Adder:
 ![full pro](https://github.com/karthielavarasu/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145980473/4ec32aba-d8a9-47ca-81ac-daca1e22cda4)
@@ -87,3 +93,4 @@ Developed by:
 
 
 ### Result:
+To design a half adder and full adder circuit and verfy its truth table in quarts using verilog programming
